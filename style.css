@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #487eb0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  user-select: none; /* Non-prefixed version, currently                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#app {
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#title {
+  font-family: 'Lato', sans-serif;;
+  font-size: 3.5rem;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: 'Lato', sans-serif;;
+  font-size: 1.75rem;
+  padding-top: 1rem;
+}
+
+.length-card {
+  text-align: center;
+}
+
+#break-length {
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 2.5rem;
+}
+
+#session-length {
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 2.5rem;
+}
+
+#clock.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #3d5d75;
+  width: 250px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#timer-label {
+  width: 100%;
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+#time-left {
+  font-family: 'Ranchers', cursive;
+  font-weight: bold;
+  font-size: 5.0rem;
+  position: relative;
+  text-align: center;
+}
+
+#bottom_buttons {
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+}
+
+#start_stop {
+  width: 36px;
+  margin: 0 auto;
+  margin-right: 9px;
+}
+
+#reset {
+  width: 18px;
+  margin: 0 auto;
+  margin-left: 9px;
+}
+
+#author {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #404452;
+}
